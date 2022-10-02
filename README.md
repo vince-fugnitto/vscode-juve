@@ -2,7 +2,7 @@
 
 <br />
 
-<img src='./images/juventus-round.jpg' alt='theia-ext-logo' width='100px' />
+<img src='./images/juventus-round.png' alt='theia-ext-logo' width='100px' />
 
 <br />
 
