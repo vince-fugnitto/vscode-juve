@@ -16,6 +16,12 @@ export function activate(context: vscode.ExtensionContext) {
         })
     );
 
+    disposables.push(
+        vscode.commands.registerCommand('vscode-juve.news', () => {
+            vscode.env.openExternal(vscode.Uri.parse('https://www.google.com/search?q=juventus+matches&oq=juventus+matches&aqs=chrome..69i57j0i512l5j69i60j69i61.2874j1j7&sourceid=chrome&ie=UTF-8#sie=t;/m/045xx;2;/m/03zv9;nw;fp;1;;;'));
+        })
+    );
+
 
     context.subscriptions.push(...disposables);
 }
