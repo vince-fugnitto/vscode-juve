@@ -12,7 +12,8 @@
     ],
     "activationEvents": [
         "onCommand:vscode-juve.fixtures-results",
-        "onCommand:vscode-juve.serie-a-standings"
+        "onCommand:vscode-juve.serie-a-standings",
+        "onCommand:vscode-juve.news"
     ],
     "main": "./out/extension.js",
     "contributes": {
@@ -26,6 +27,11 @@
                 "command": "vscode-juve.serie-a-standings",
                 "category": "Juventus",
                 "title": "Serie A Standings"
+            },
+            {
+                "command": "vscode-juve.news",
+                "category": "Juventus",
+                "title": "News"
             }
         ]
     },
